@@ -15,6 +15,6 @@ A web-based Tic Tac Toe game built with HTML, CSS, and JavaScript featuring AI g
 # PRODIGY_WD_03
 
 ## Preview
-![Tic Tac Toe Game](preview.png)
+![Tic Tac Toe Game](Preview.png)
 
 A web-based Tic Tac Toe game built with HTML, CSS, and JavaScript featuring AI gameplay with multiple difficulty levels and local two-player mode.
