@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Tic Tac Toe</h1>
+
+    <div class="controls">
+        <label for="gameMode">Game Mode: </label>
+        <select id="gameMode" onchange="restartGame()">
+            <option value="ai">vs. AI</option>
+            <option value="pvp">vs. Player (Local)</option>
+        </select>
+
+        <label for="difficulty">Difficulty: </label>
+        <select id="difficulty" onchange="restartGame()">
+            <option value="easy">Easy (Random)</option>
+            <option value="medium">Medium (Mixed)</option>
+            <option value="hard">Hard (Unbeatable)</option>
+        </select>
+    </div>
+
+    <div class="board" id="board">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+    </div>
+
+    <h2 id="status"></h2>
+
+    <button onclick="restartGame()">Restart</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
